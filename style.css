@@ -1,0 +1,89 @@
+*{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(./IMG/bridge-in-the-forest-5969.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.logo-user{
+    margin-top: -60px;
+}
+
+.sign-up-form{
+    width: 300px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    padding: 20px;
+    margin: 6% auto 0;
+    text-align: center;
+}
+
+.login-header{
+    color: #1c8adb;
+    margin-bottom: 26px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box{
+    display: block;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #999;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    color: #fff;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.sign-up{
+    background-color: #1c8adb;
+}
+
+.sign-up__another{
+    background-color: #21afde;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.or{
+    display: block;
+    background-color: #fff;
+    width: 30px;
+    margin: -17px auto 10px;
+}
+
+.sign-in{
+    font-size: 14px;
+}
+
+.sign-in a{
+    color: #1c8adb;
+}
